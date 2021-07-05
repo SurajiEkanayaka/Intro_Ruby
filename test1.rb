@@ -57,8 +57,115 @@ Your gpa : 4.9
 150.67000000000002
 =end
 
-
 #STRINGS
+
+puts "STRINGS"
+
+word="suraji"
+#indexes: 012345
+
+
+puts word.length  #print word length
+puts word[0]  #print 0 index in the word
+puts word.include? "aji"  #Is there  letters "AJI"?
+puts word.include? "o"   #Is there "o"
+puts word[1,3]  #Print letters ranging from 1 to 3
+
+=begin
+output
+s
+true
+false
+ura
+=end
+
+puts "NUMBERS" # -Arithmetics
+
+puts 2*3
+puts 2**3
+puts 6%4
+puts (2+3)*2
+puts 2+3*2  #order of operations
+puts 10/4 
+
+=begin
+output
+6
+8
+2
+10
+8
+2
+=end
+
+num = 10
+num +=10  #num=num+10    +=,-=,/=,*=
+puts num
+#output = 20
+
+num = -10.25
+puts num.abs() #absolute function
+puts num.round()  #rounded value
+
+#MATH METHODS
+
+puts "Math Methods"
+
+puts Math.sqrt(144)  #square value
+puts Math.log(0)
+puts Math.log(10)
+
+=begin
+Math Methods
+12.0
+-Infinity
+2.302585092994046
+=end
+
+#USER INPUT 
+
+puts "USER INPUT"
+
+puts "Enter your name : "
+name =gets.chomp
+puts "Hello #{name}, How are you"  # , like a line break without chomp
+
+puts "Enter number1 : "
+no1=gets.chomp
+puts "Enter number2 : "
+no2=gets.chomp
+print "Total is : "
+puts no1.to_f+ no2.to_f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
