@@ -137,6 +137,71 @@ no2=gets.chomp
 print "Total is : "
 puts no1.to_f+ no2.to_f
 
+#ARRAYS
+puts "\n\n"  #two line breaks
+puts "Arrays"
+
+a=[2,4,"school",10,20,"university",60,30,45] #indexes started in 0
+
+a[0]=50  #update value
+puts a[0]
+puts a[1]
+puts a[-1]
+
+puts "\n\n" 
+puts a[2,3]
+puts "\n\n"
+puts a[2..4]
+puts "\n\n"
+
+puts a.length
+
+=begin
+output
+Arrays
+50
+4
+45
+
+
+school
+10
+20
+
+
+school
+10
+20
+
+
+9
+=end
+
+puts "\n"
+
+#multi dimensional arrays
+puts "Multi dimensional arrays"
+
+array=[[20,10],[30,50]]
+puts array[0][0]
+puts "\n"
+array[0][0]=99 #update b=value
+
+puts array[0][0]
+puts array[0][1]
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
